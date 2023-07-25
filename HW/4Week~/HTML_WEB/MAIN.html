@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <i class="fa-solid fa-heart" style="color: #000000;"></i> <!-- 하트 아이콘-->
+        <i class="fa-solid fa-pen" style="color: #000000;"></i> <!--연필-->
+        <style>
+            body{
+                background-color: bebebe;
+            }
+            #Head{
+                color: aliceblue;
+                display: flex;
+                align-items: center; 
+                background-color: rgb(50, 50, 50);
+                margin: 3%;
+                margin-bottom: 10%;
+                padding: 10px; 
+                
+            }
+            #logo{
+                background-color: aqua;
+            }
+            nav{
+                margin-left:auto;
+            }
+            li{
+                
+                font-size: 1.5em;
+                display: inline-block;
+                margin: 20px;
+                padding-bottom: 5px;
+                border-bottom: solid 4px aliceblue;
+                
+            }
+            #maintext{
+                margin-left: 25%;
+                margin-right: 25%;
+                font-size: 3em;
+                text-align: center;
+            }
+            li:hover {
+            border-color: whitesmoke; 
+            transition: all 0.1s linear;
+            transform: scale(1.3);
+            }
+            #idbox:hover{
+            transition: all 0.1s linear;
+            transform: scale(1.3);
+
+            }
+
+            #loginbox{
+                background-color: green;
+                width: 150px;
+                font-size: 1.3rem; font-weight: 600; margin: auto;
+                padding: 1.5rem;
+                text-decoration: none;
+            }
+
+        </style>
+    </head>
+        <body>
+            <header>
+                <div id = "Head">
+                    <h1 class = "logo">CAR_WASH_GUIDE</h1>
+
+                    <nav id = "list">
+                        <ul class = "lis">
+                            <li>MAIN</li>
+                            <li>POST</li>
+                            <li>CONTECT ME</li>
+                            <li>SIGN IN</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <section id ="maintext">
+                <div>
+                    <h2>안녕하세요.</h2>
+                    <p>이 사이트는 세차를 취미로 즐기는 사람이 제작한 세차 가이드 사이트 입니다.</p>
+                    <p class="idbox"><a id="loginbox">SIGE IN</a></p>
+                </div>
+            </section>
+
+        </body>
+    
+</html>
